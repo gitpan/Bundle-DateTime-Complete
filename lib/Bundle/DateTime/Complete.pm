@@ -1,6 +1,6 @@
 package Bundle::DateTime::Complete;
 
-$VERSION = '0.13';
+$VERSION = '0.14';
 
 1;
 
@@ -21,6 +21,8 @@ Params::Validate 0.52
 Test::More 0
 Time::Local 1.04
 
+Module::Build
+
 Class::Singleton 1.03 - prereq of DT::TimeZone
 
 DateTime::Locale 0.03 - needed by DateTime 
@@ -38,6 +40,7 @@ DateTime::Util::Calc
 DateTime::Util::Astro::Common
 
 DateTime::Calendar::Coptic 
+DateTime::Calendar::Discordian
 DateTime::Calendar::FrenchRevolutionary 
 DateTime::Calendar::Hebrew
 DateTime::Calendar::Hijri
@@ -72,6 +75,7 @@ DateTime::Format::Duration
 DateTime::Format::Epoch 
 DateTime::Format::Excel 
 DateTime::Format::HTTP 
+DateTime::Format::Human 
 DateTime::Format::IBeat 
 DateTime::Format::ICal 
 DateTime::Format::ISO8601 

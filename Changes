@@ -1,6 +1,11 @@
 Revision history for Perl module Bundle::DateTime::Complete
 
-0.13  2003-07-28
+0.14  2004-10-17
+    - added DateTime::Calendar::Discordian
+
+    - added DateTime::Format::Human
+
+0.13  2004-07-28
     - name changed to Bundle::DateTime::Complete
 
     - added DateTime::Functions
