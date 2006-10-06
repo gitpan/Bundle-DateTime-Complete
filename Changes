@@ -1,5 +1,12 @@
 Revision history for Perl module Bundle::DateTime::Complete
 
+0.15  2006-10-06
+    - added DateTime::Format::WindowsFileTime, ::RSS, ::DB2, ::DateParse
+
+    - added DateTime::Util::DayOfWeek
+
+    - added license (public domain)
+
 0.14  2004-10-17
     - added DateTime::Calendar::Discordian
 

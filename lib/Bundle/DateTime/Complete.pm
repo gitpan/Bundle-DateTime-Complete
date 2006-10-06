@@ -1,6 +1,6 @@
 package Bundle::DateTime::Complete;
 
-$VERSION = '0.14';
+$VERSION = '0.15';
 
 1;
 
@@ -17,16 +17,17 @@ C<perl -MCPAN -e 'install Bundle::DateTime::Complete'>
 =head1 CONTENTS
 
 Class::Factory::Util 1.3 - prereq's of DateTime
-Params::Validate 0.52
-Test::More 0
+Params::Validate 0.76
+Test::More 0.34
 Time::Local 1.04
+Pod::Man 1.14
 
 Module::Build
 
 Class::Singleton 1.03 - prereq of DT::TimeZone
 
-DateTime::Locale 0.03 - needed by DateTime 
-DateTime::TimeZone 0.25 - needed by DateTime
+DateTime::Locale 0.21 - needed by DateTime 
+DateTime::TimeZone 0.38 - needed by DateTime
 
 DateTime
 
@@ -36,8 +37,11 @@ DateTime::HiRes
 
 DateTime::Functions
 
+DateTime::Incomplete
+
 DateTime::Util::Calc
 DateTime::Util::Astro::Common
+DateTime::Util::DayOfWeek
 
 DateTime::Calendar::Coptic 
 DateTime::Calendar::Discordian
@@ -70,6 +74,8 @@ DateTime::Format::Builder -- prereq of several other formats
 DateTime::Format::Baby 
 DateTime::Format::Bork 
 DateTime::Format::DateManip 
+DateTime::Format::DateParse
+DateTime::Format::DB2
 DateTime::Format::DBI 
 DateTime::Format::Duration
 DateTime::Format::Epoch 
@@ -83,7 +89,9 @@ DateTime::Format::Mail
 DateTime::Format::MySQL 
 DateTime::Format::Pg 
 DateTime::Format::Roman 
+DateTime::Format::RSS
 DateTime::Format::W3CDTF
+DateTime::Format::WindowsFileTime
 
 DateTime::TimeZone::Alias
 DateTime::TimeZone::LMT
@@ -109,6 +117,11 @@ Eugene van der Pijll <pijll@gmx.net>
 
 The best address to send questions or additions to is the datetime
 mailing list <datetime@perl.org>.
+
+Bundle::DateTime::Complete is public domain. Note that this does not
+cover the individual packages installed by this Bundle; these all are
+separately licensed. See the appropriate license files in those
+packages.
 
 =head1 SEE ALSO
 
